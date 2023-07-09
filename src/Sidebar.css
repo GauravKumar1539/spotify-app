@@ -1,0 +1,28 @@
+.sidebar{
+    border: 1px solid black;
+    height: 100vh;
+    flex:0.2;
+    background-color: #040404;
+    min-width: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    padding-top: 10px;
+}
+.side_logo{
+    object-fit: contain; /* it fixes the aspect ratio of image */
+    height: 70px;
+    width: 75%;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+.sidebar_title {
+    margin-left: 28px;
+    padding: 5px;
+    font-size: 18px;
+}
+.sidebar > hr {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
