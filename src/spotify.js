@@ -2,7 +2,8 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
 // const redirectUrl = "http://localhost:3000/";
-const redirectUrl = "https://gauravkumar1539.github.io/spotify-app/";
+const redirectUrl = String(window.location.href);
+// const redirectUrl = "http://gauravkumar1539.github.io/spotify-app/";
 
 // 1. user is directed to spotify authorization page.Spotify takes care of the authorzation and redirects the user back to our app.
 
